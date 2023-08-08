@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Start to update local search xml file"
-cd /home/lighthouse/programs/baota/LocalSearch
+cd /share/html/LocalSearch
 git pull
 git add -A
 git commit -m add-new-data
